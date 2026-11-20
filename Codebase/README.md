@@ -1,10 +1,10 @@
-# 🚌 Bus Route Management System
+Bus Route Management System
 
 A Python command-line application that models an intercity bus network as a weighted graph and uses **Breadth-First Search (BFS)** to find routes, check connections, and calculate ticket fares.
 
 ---
 
-## ✨ Features
+Features
 
 * **View All Stops:** Lists every bus stop available in the network.
 * **Inspect Connections:** Displays direct neighbouring stops and road distances (in km) for any selected city.
@@ -14,7 +14,7 @@ A Python command-line application that models an intercity bus network as a weig
 
 ---
 
-## 🗺️ Network Coverage
+Network Coverage
 
 The built-in dataset models intercity connections across Chhattisgarh:
 
@@ -23,7 +23,7 @@ The built-in dataset models intercity connections across Chhattisgarh:
 
 ---
 
-## 🛠️ Tech Stack & Concepts
+Tech Stack & Concepts
 
 * **Language:** Python 3.x (Standard Library only — `collections.deque`)
 * **Data Structure:** Weighted adjacency list implemented via nested dictionaries
